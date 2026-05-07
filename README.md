@@ -13,4 +13,4 @@ Search for `bitcore-init` in apps and pin it to workspace
 
 ![bitcore-init on task bar](taskbar.png)
 
-Now clicking it will open
+Now clicking the shortcut will start up my workspace
