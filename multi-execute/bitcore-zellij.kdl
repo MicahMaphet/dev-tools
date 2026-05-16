@@ -1,0 +1,61 @@
+layout {
+  pane split_direction="vertical" {
+    pane command="npm" {
+        args "run" "coverage:bitcore-wallet-client"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-wallet-service"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-node"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-client"
+    }
+  }
+  pane split_direction="vertical" {
+    pane command="npm" {
+        args "run" "coverage:bitcore-lib"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-lib-cash"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-lib-doge"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-lib-ltc"
+    }
+  }
+  pane split_direction="vertical" {
+    pane command="npm" {
+        args "run" "coverage:bitcore-p2p"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-p2p-cash"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-p2p-doge"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-tss"
+    }
+  }
+  pane split_direction="vertical" {
+    pane command="npm" {
+        args "run" "coverage:bitcore-cli"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-logging"
+    }
+    pane command="npm" {
+        args "run" "coverage:bitcore-mnemonic"
+    }
+    pane command="npm" {
+        args "run" "coverage:crypto-rpc"
+    }
+    pane command="npm" {
+        args "run" "coverage:crypto-wallet-core"
+    }
+  }
+}
