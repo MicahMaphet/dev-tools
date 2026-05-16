@@ -1,13 +1,13 @@
 layout {
   pane split_direction="vertical" {
     pane command="npm" {
-        args "run" "coverage:bitcore-wallet-client"
+        args "run" "coverage:bitcore-node"
     }
     pane command="npm" {
         args "run" "coverage:bitcore-wallet-service"
     }
     pane command="npm" {
-        args "run" "coverage:bitcore-node"
+        args "run" "coverage:bitcore-wallet-client"
     }
     pane command="npm" {
         args "run" "coverage:bitcore-client"
